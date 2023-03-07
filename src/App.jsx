@@ -3,7 +3,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "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";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
   "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
@@ -12,7 +12,7 @@ const systemMessage = { //  Explain things like you're talking to a software pro
 function App() {
   const [messages, setMessages] = useState([
     {
-      message: "Hello, I'm ChatGPT! 🤙",
+      message: "Hello, I'm ChatGPT!",
       sentTime: "just now",
       sender: "ChatGPT"
     }
